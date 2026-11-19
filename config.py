@@ -66,7 +66,7 @@ ALERT_PATTERNS = [
     r"magnitude\s*[6-9]",
     r"\bm[6-9]\.\d",                      # quake magnitude shorthand
     r"red alert",                          # GDACS red
-    r"zero[- ]day|0[- ]day",
+    r"zero[- ]day|\b0[- ]day\b",
     r"actively exploited",
     r"data breach|breach of .{0,20}(million|billion|records)",
     r"ransomware (attack|gang|outbreak)",
