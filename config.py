@@ -81,6 +81,9 @@ ALERT_PATTERNS = [
     r"flash flood.{0,40}singapore|singapore.{0,40}flash flood",
     r"emergency landing",
     r"plane crash|aircraft crash",
+    r"remote code execution|\brce\b.{0,40}(critical|9\\.\\d|patch|exploit)",
+    r"cvss.{0,10}9\\.\\d",
+    r"critical vulnerability|critical security (flaw|update)",
 ]
 
 # Feeds. mode "all" = every item counts for the listed topics (the source IS the filter).
