@@ -107,7 +107,12 @@ def text_of(elem, name):
     return None
 
 
+BAD_AMP = re.compile(rb'&(?!amp;|lt;|gt;|quot;|apos;|#)')
+BAD_CTRL = re.compile(rb'[\x00-\x08\x0b\x0c\x0e-\x1f]')
+
+
 def parse_feed(data):
+    data = BAD_CTRL.sub(b' ', BAD_AMP.sub(b'&amp;', data))
     root = ET.fromstring(data)
     rootname = localname(root.tag)
     entries = []

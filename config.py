@@ -108,7 +108,7 @@ FEEDS = [
     {"name": "Ars Technica",     "url": "https://arstechnica.com/feed/",                "topics": ["security", "ai", "space"], "mode": "filtered"},
     {"name": "IntelTechniques",  "url": "https://inteltechniques.com/blog/feed/",       "topics": ["security"], "mode": "all"},
     {"name": "NORAD",            "url": "https://www.norad.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1003&max=20", "topics": ["security", "space"], "mode": "all"},
-    {"name": "GDELT blog",       "url": "https://blog.gdeltproject.org/feed/",          "topics": ["security"], "mode": "all"},
+    {"name": "GDELT blog",       "url": "https://blog.gdeltproject.org/feed/",          "topics": ["ai", "security"], "mode": "filtered"},
     {"name": "Bellingcat",       "url": "https://www.bellingcat.com/feed/",             "topics": ["security", "disruptions", "manmade", "natdis"], "mode": "filtered"},
     # Disasters / incidents
     {"name": "GDACS",             "url": "https://www.gdacs.org/xml/rss.xml",                 "topics": ["natdis"], "mode": "all"},
