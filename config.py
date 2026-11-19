@@ -94,7 +94,7 @@ FEEDS = [
     {"name": "Lobsters",       "url": "https://lobste.rs/rss",                         "topics": ["ai", "security", "hw"], "mode": "filtered"},
     # GPU / homelab / deals
     {"name": "ServeTheHome",    "url": "https://www.servethehome.com/feed/",              "topics": ["hw"], "mode": "all"},
-    {"name": "TechPowerUp",     "url": "https://www.techpowerup.com/rss/",                "topics": ["hw"], "mode": "all"},
+    {"name": "TechPowerUp",     "url": "https://www.techpowerup.com/rss/news",           "topics": ["hw"], "mode": "all"},
     # Singapore
     {"name": "Straits Times SG", "url": "https://www.straitstimes.com/news/singapore/rss.xml", "topics": ["sg"], "mode": "all"},
     {"name": "CNA Singapore",    "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511636", "topics": ["sg"], "mode": "all"},
