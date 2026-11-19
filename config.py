@@ -33,7 +33,8 @@ TOPICS = {
         "label": "Natural disasters",
         "keywords": ["earthquake", "tsunami", "typhoon", "cyclone", "hurricane", "volcano",
                      "eruption", "flood", "landslide", "wildfire", "storm surge", "drought",
-                     "haze", "heatwave", "tornado", "avalanche", "monsoon"],
+                     "haze alert", "haze warning", "transboundary haze", "unhealthy psi",
+                     "psi levels", "heatwave", "tornado", "avalanche", "monsoon"],
     },
     "manmade": {
         "label": "Man-made disasters",
